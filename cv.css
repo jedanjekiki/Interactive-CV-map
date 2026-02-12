@@ -447,7 +447,7 @@
         }
         
  /* --- MOBILE & TABLET ONLY (768px and down) --- */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     /* 1. Header: Stack your name into two rows to save horizontal space */
     h1 { 
         font-size: 32px; 
@@ -537,4 +537,5 @@
     .footer { width: 50%;
          min-width: unset;
           bottom: 10px; }
+
 }
