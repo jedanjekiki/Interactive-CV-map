@@ -465,12 +465,12 @@
     }
     .header { 
         top: 20px; 
-        left: 30px; 
+        left: 20px; 
         padding: 20px; }
 
     /* 2. Navigation: Stack Buttons */
     .top-nav { 
-        top: 20px; right: 30px; 
+        top: 20px; right: 20px; 
         flex-direction: column; 
         gap: 8px; }
 
@@ -512,7 +512,7 @@
     /* 5. Legend & Character Positioning */
     .bottom-info { 
         bottom: 150px; 
-        left: 30px; 
+        left: 20px; 
         font-size: 14px; 
         padding: 20px; 
     }
@@ -522,12 +522,12 @@
         height: 120px; 
         bottom: 150px; 
         top: auto !important; 
-        right: 30px; 
+        right: 20px; 
     }
 
     #bubble { 
         bottom: 240px; 
-        right: 30px; 
+        right: 20px; 
         width: 180px; 
         font-size: 14px; 
         padding: 15px;
@@ -539,3 +539,4 @@
           bottom: 10px; }
 
 }
+
