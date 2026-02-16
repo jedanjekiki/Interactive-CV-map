@@ -383,6 +383,13 @@
             padding-right: 10px;
         }
 
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: stretch;
+        }
+
         .skills { 
             margin: 0;  
             font-size: 16px; 
@@ -502,12 +509,11 @@
         display: none !important; /* Completely removes the image */
     }
 
-    /* 4. Hide Skills Scrollbar specifically */
-    .skills-content-wrapper {
-        scrollbar-width: none;
-        -ms-overflow-style: none;
+   /* Switch skills to one column on mobile */
+    .skills-grid {
+        grid-template-columns: 1fr !important;
     }
-    .skills-content-wrapper::-webkit-scrollbar { display: none; }
+
 
     /* 5. Legend & Character Positioning */
     .bottom-info { 
